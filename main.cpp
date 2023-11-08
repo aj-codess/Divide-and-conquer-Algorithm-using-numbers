@@ -25,11 +25,9 @@ vector<int> change_func(vector<int> x_holder){
 void push(vector<int> x){
     if(x.size()==1){
         tree.push_back(x);
-        cout<<"pushed to tree - "<<x.at(0)<<endl;
     }else if(x.size()==2){
         vector<int> get_swapped=change_func(x);
         tree.push_back(get_swapped);
-        cout<<"pushed to tree - "<<x.at(0)<<" "<<x.at(1)<<endl;
     };
 };
 
@@ -79,8 +77,8 @@ void ruler(vector<int> number_pool, int size) {
 };
 
 int main(){
-
     vector<int> number_pool;
+    int arr[tree.size()];
 
 
 //test.......
