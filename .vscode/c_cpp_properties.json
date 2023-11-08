@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "name": "macos-clang-x64",
+      "xludePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "/usr/bin/clang",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "macos-clang-x64",
+      "compilerArgs": [
+        ""
+      ],
+      "includePath": [
+        "${workspaceFolder}/**"
+      ]
+    }
+  ],
+  "version": 4
+}
